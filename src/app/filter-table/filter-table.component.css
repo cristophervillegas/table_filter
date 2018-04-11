@@ -1,0 +1,38 @@
+div[class=".filters-box"], div[class=".filters-box"]  {
+    width: 120px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    /*background-image: url('searchicon.png');*/
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+div[class=".filters-box"] > input {
+    display: none;
+    width: 120px;
+    height: 25px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: 0px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 2s ease-in-out;
+    transition: width 2s ease-in-out;
+}
+
+div[class=".filters-box"]:hover {
+    width: 100%;
+}
+div[class=".filters-box"]:hover > input {
+    display: block;
+    height: 20px;
+    font-size: 16px;
+}
